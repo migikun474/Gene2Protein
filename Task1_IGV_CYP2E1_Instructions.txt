@@ -1,0 +1,58 @@
+===================================================
+TASK 1: IGV VIEW OF CYP2E1 (ENSG00000130649)
+===================================================
+
+Gene: CYP2E1
+Ensembl ID: ENSG00000130649
+Chromosome: 10
+Location: chr10:133,520,000 - 133,561,000 (GRCh38/hg38)
+Tissue: Liver
+Function: Breaks down toxins and alcohol
+
+---------------------------------------------------
+STEP-BY-STEP IGV INSTALLATION & VIEWING GUIDE
+---------------------------------------------------
+
+STEP 1: Download IGV
+  - Go to: https://software.broadinstitute.org/software/igv/download
+  - Choose your OS version (Windows/Mac/Linux)
+  - Install locally on your computer (NOT on Google Drive)
+
+STEP 2: Launch IGV
+  - Open IGV application
+  - Select genome: Human (hg38) from the top-left dropdown
+    [Genomes > Load Genome from Server > Human (hg38)]
+
+STEP 3: Navigate to CYP2E1
+  - In the search bar at the top, type:
+      ENSG00000130649
+    OR
+      CYP2E1
+    OR the coordinates:
+      chr10:133,520,000-133,561,000
+  - Press Enter or click "Go"
+
+STEP 4: Load Reference Tracks (optional but recommended)
+  - Go to: File > Load from Server
+  - Add: Ensembl Genes track to see all transcripts
+
+STEP 5: Take a Screenshot
+  - Go to: File > Save Image
+  - Save as PNG or SVG for your report
+
+---------------------------------------------------
+KEY IGV FEATURES TO OBSERVE FOR CYP2E1
+---------------------------------------------------
+  - Gene structure (exons = thick blue blocks, introns = lines/arrows)
+  - Direction of transcription (arrows show strand orientation)
+  - Multiple transcript isoforms (stacked tracks)
+  - CYP2E1 is on the REVERSE (minus) strand of chromosome 10
+
+---------------------------------------------------
+EXPECTED VIEW
+---------------------------------------------------
+  Chromosome:   10
+  Strand:       - (reverse/minus)
+  Transcripts:  ~5 Ensembl transcripts
+  Gene span:    ~11 kb
+===================================================
